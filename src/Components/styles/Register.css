@@ -1,0 +1,98 @@
+svg.yellow-square {
+    position: absolute;
+    /* left: 0; */
+    right: 0;
+    height: 335%;
+    top: -340px;
+    bottom: 0;
+}
+
+@media screen and (width:2560px) {
+    svg.yellow-square {
+        position: absolute;
+        right: 0;
+        height: 558%;
+        top: -876px;
+    }
+}
+
+@media screen and (max-width:1920px) {
+    svg.yellow-square {
+        position: absolute;
+        right: 0;
+        height: 374%;
+        top: -546px;
+        bottom: 0;
+    }
+}
+
+@media screen and (max-width:1600px) {
+	svg.yellow-square {
+		position: absolute;
+		right: 0;
+		height: 335%;
+		top: -340px;
+		bottom: 0;
+	}
+}
+
+@media screen and (width:1024px) {
+    svg.yellow-square {
+        position: absolute;
+        right: 0;
+        height: 168%;
+        top: -7px;
+    }
+}
+
+@media screen and (width:768px) {
+    svg.yellow-square {
+        position: absolute;
+        right: 0;
+        height: 171%;
+        top: -16px;
+        bottom: 0;
+    }
+}
+
+@media screen and (max-width:767px) {
+    svg.yellow-square {
+        position: absolute;
+        right: 0;
+        height: 86%;
+        top: -81px;
+        bottom: 0;
+    }
+}
+
+
+
+/* Estilo para el contenedor del formulario */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 500px;
+   
+  }
+
+  
+  /* Estilo para el formulario */
+  .card {
+    z-index: 999;
+    width: 80%; 
+    max-width: 500px; 
+    padding: 25px; 
+    background-color: rgba(255, 255, 255, 0.3) !important; 
+    border-radius: 10px; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); 
+}
+  .card-title {
+    text-align: center; 
+  }
+  
+
+  .btn-warning {
+    width: 100%; }
+  
